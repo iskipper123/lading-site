@@ -24,6 +24,31 @@
 /***** 	   01. General css		 ****/
 /************************************/
 
+.text1 {
+	color: #000000;
+}
+
+.form1 {
+	padding: 20px;
+	margin-left: 400px;
+}
+
+.form2 {
+	margin-left: 0px;
+}
+
+.form3 {
+	margin-left: 4px;
+}
+
+.form4 {
+	margin-left: 18px;
+}
+
+.form {
+	padding: 20px;
+}
+
 body{
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
@@ -438,7 +463,7 @@ nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu{
 
 .about-entry p{
 	font-size: 14px;
-	color: #b8b6b6;
+	color: #000000;
 	line-height: 1.8em;
 	margin-bottom: 1.5em;
 }
@@ -459,6 +484,15 @@ nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu{
 	margin: 10px auto 0;
 	background: #f7a401;
 	position: relative;
+}
+
+.new_icon1{
+	width: 140px;
+}
+
+.flaticona-title{
+	width: 145px;
+
 }
 
 .about-feature-single .icon-box i{
@@ -496,8 +530,8 @@ nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url(../images/service-left.png) no-repeat left bottom, url(../images/service-right.png) no-repeat right bottom;
-	background-size: 320px auto, 280px auto;
+	background: url(../images/service-left.jpg) no-repeat left bottom, url(../images/service-right.jpg) no-repeat right bottom;
+	background-size: 280px auto, 280px auto;
 }
 
 .services-container{
@@ -514,8 +548,8 @@ nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu{
 
 .service-single .icon-box{
 	display: block;
-	width: 110px;
-	height: 110px;
+	width: 140px;
+	height: 140px;
 	border-radius: 50%;
 	margin: 12px auto 0;
 	background: #f7a401;
@@ -874,6 +908,7 @@ nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu{
 	font-size: 20px;
 	color: #f7a401;
 	font-weight: 600;
+	margin: 30px;
 }
 
 .contact-single h3 i{
