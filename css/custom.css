@@ -136,8 +136,8 @@ a:focus{
 }
 
 .navbar-brand{
-	padding: 0 15px 0;
-	height: auto;
+	padding: 0 0px 0;
+	height: 100px;
 	transition: all 0.3s ease-out;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -145,7 +145,8 @@ a:focus{
 
 .navbar-brand img{
 	transition: all 0.3s;
-	height: 122px;
+	height: 40px;
+	margin: 20px;
 }
 
 .navbar-fixed-top .navbar-collapse{
@@ -371,7 +372,7 @@ nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu{
 }
 
 .header-content h2{
-	color: #f8b634;
+	color: #000000;
 	font-size: 50px;
 	margin-bottom: 20px;
 	line-height: 1.4em;
@@ -572,8 +573,8 @@ nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu{
 }
 
 .service-single p{
-	font-size: 12px;
-	color: #7c7c7c;
+	font-size: 18px;
+	color: #000000;
 	line-height: 1.8em;
 }
 
