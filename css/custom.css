@@ -1035,12 +1035,6 @@ footer{
 		padding-right: 15px;
 	}
 	
-	
-	@media (max-width: 767px) {
-  .form1 .form2 .form3 .form4 .message {
-	  display: none;}
-	
-	
 	nav.bootsnav.navbar-full ul.nav > li > a{
 		font-size: 14px !important;
 		letter-spacing: 0.04em !important;
