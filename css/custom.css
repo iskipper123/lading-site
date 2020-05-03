@@ -1038,8 +1038,7 @@ footer{
 	
 	@media (max-width: 767px) {
   .form1 .form2 .form3 .form4 .message {
-    display: none;
-	
+	  display: none;}
 	
 	
 	nav.bootsnav.navbar-full ul.nav > li > a{
