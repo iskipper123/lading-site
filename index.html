@@ -422,41 +422,30 @@
 
 
 <!-- Contact Form start -->
-					<div class="contact-form">
-						<form id="contactForm" action="https://formspree.io/iskipper123@gmail.com" method="post" ">
-							<div class="row">
-								<div class="form-group col-md-6 col-sm-6">
-									<input type="text" name="name" id="name" class="form-control" placeholder="Your Name" >
-									<div class="help-block with-errors"></div>
-								</div>
-								
-								<div class="form-group col-md-6 col-sm-6">
-									<input type="email" name="email" id="email" class="form-control" placeholder="Your Email" >
-									<div class="help-block with-errors"></div>
-								</div>
-								
-								<div class="form-group col-md-6 col-sm-6">
-									<input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" >
-									<div class="help-block with-errors"></div>
-								</div>
-								
-								<div class="form-group col-md-6 col-sm-6">
-									<input type="terxt" name="subject" id="subject" class="form-control" placeholder="Subject" >
-									<div class="help-block with-errors"></div>
-								</div>
-								
-								<div class="form-group col-md-12 col-sm-12">
-									<textarea rows="6" name="message" id="message" class="form-control" placeholder="Write Your Message Here" ></textarea>
-									<div class="help-block with-errors"></div>
-								</div>
-								
-								<div class="col-md-12 col-sm-12">
-									<button type="submit" class="btn-contact" title="Submit Your Message!">Send Message</button>
-									<div id="msgSubmit" class="h3 text-left hidden"></div>
-								</div>
-							</div>
-						</form>
-					</div>
+					<div class="contact-form"><form id="feedback" 
+  action="https://formspree.io/iskipper123@gmail.com"
+  method="POST"
+>
+ <div class="form2"><label>
+    Numele
+        <input type="text" name="name" placeholder="Numele">
+  </label><br></div>
+ <div class="form3">
+  <label> Telefon
+        <input type="text" name="name" placeholder="+373">
+  </label><br></div>
+ <div class="form4">
+  <label> Email
+        <input type="text" name="_replyto" placeholder="exemplu@email.com">
+  </label><br></div>
+
+<label> <p class="message"> Mesajul  <textarea name="message" form="feedback" placeholder="Textul" rows="4" cols="21"></textarea></p>
+  </label><br>
+
+  <!-- your other form fields go here -->
+
+  <div><button type="submit">Trimite</button>
+</form></div></div>
 					<!-- Contact Form end -->
 				</div>
 			</div>
